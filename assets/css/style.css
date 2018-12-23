@@ -32,16 +32,16 @@ secondary background : #12141c;
                        [ 01 General Style ]
 -----------------------------------------------------------------*/
 .bg-main {
-    background: #0d0f16 !important;
+    background: #000000 !important;
 }
 .bg-second {
-    background: #12141c !important;
+    background: #000000 !important;
 }
 .bg-third {
     background: #fe7773 !important;
 }
 .bg-fouth {
-    background: #f9a766 !important;
+    background: #00ff00 !important;
 }
 .mt-up {
     margin-top: 100vh;
@@ -128,7 +128,7 @@ section {
 body{
     font-family: 'Rubik', sans-serif;
     color: #fff;
-    background: #0d0f16;
+    background: #000000;
 }
 p {
     font-family: 'Open Sans', sans-serif;
@@ -155,7 +155,7 @@ h1 {
     margin-bottom: 30px;
 }
 h1 span {
-    color: #f9a766;
+    color: #00ff00;
 }
 h4 {
     font-weight: 400;
@@ -180,7 +180,7 @@ a:hover{
 /* main-title */
 h4.min-title {
     
-    color: #f9a766;
+    color: #00ff00;
     font-size: 14px;
     text-transform: uppercase;
     font-weight: 700;
@@ -202,7 +202,7 @@ h4.min-title::after{
     height: 1px;
     width: 10%;
     margin-top: 12px;
-    background: #f9a766;
+    background: #00ff00;
     right: 45%;
 }
 
@@ -216,7 +216,7 @@ h4.min-title::after{
     top: 0;
     width: 100%;
     z-index: 1111;
-    background: #0d0f16;
+    background: #000000;
     overflow-x: hidden;
 }
 #preloader {
@@ -239,7 +239,7 @@ h4.min-title::after{
     margin: -75px 0 0 -75px;
     border-radius: 50%;
     border: 3px solid transparent;
-    border-top-color:#f9a766;
+    border-top-color:#00ff00;
     border-bottom-color: #fe7773;
     -webkit-animation: spin 2s linear infinite;
     animation: spin 2s linear infinite;
@@ -253,7 +253,7 @@ h4.min-title::after{
     bottom: 5px;
     border-radius: 50%;
     border: 3px solid transparent;
-    border-top-color:#f9a766;
+    border-top-color:#00ff00;
     border-bottom-color: #fe7773;
     -webkit-animation: spin 3s linear infinite;
     animation: spin 3s linear infinite;
@@ -267,7 +267,7 @@ h4.min-title::after{
     bottom: 15px;
     border-radius: 50%;
     border: 3px solid transparent;
-    border-top-color:#f9a766;
+    border-top-color:#00ff00;
     border-bottom-color: #fe7773;
     -webkit-animation: spin 1.5s linear infinite;
     animation: spin 1.5s linear infinite;
@@ -328,11 +328,11 @@ h4.min-title::after{
     transition: all .5s;
 }
 .navbar .navbar-nav .active {
-    color: #f9a766 !important;
+    color: #00ff00 !important;
 }
 
 .nav-scroll {
-    background: #12141c;
+    background: #000000;
     -webkit-box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.05);
     box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.05);
     padding: 0;
@@ -349,13 +349,13 @@ h4.min-title::after{
 }
 
 .navbar .icon-bar {
-    color: #f9a766;
+    color: #00ff00;
 }
 @media screen and (max-width: 991px) {
 .navbar .navbar-collapse {
     max-height: 500px;
     overflow: auto;
-    background: #12141c;
+    background: #000000;
     text-align: center;
     padding: 10px 0;
     }
@@ -365,7 +365,7 @@ h4.min-title::after{
                     [ 03 Header Version 01]
 -----------------------------------------------------------------*/
 .header {
-    background: #000;
+    background: #000000;
    height: 100%;
     position: fixed;
    width: 100%;
@@ -414,19 +414,19 @@ ul.head-navigation li{
     padding: 20px 40px;
     border: 1px solid transparent;
     -webkit-border-image: 
-    -webkit-linear-gradient(right, #f9a766 0%,#fe7773 100%);
+    -webkit-linear-gradient(right, #00ff00 0%,#fe7773 100%);
     -moz-border-image:
-    -moz-linear-gradient(right, #f9a766  0%,#fe7773 100%);  
+    -moz-linear-gradient(right, #00ff00  0%,#fe7773 100%);  
     -o-border-image:
-    -o-linear-gradient(right, #f9a766 0%,#fe7773 100%);
+    -o-linear-gradient(right, #00ff00 0%,#fe7773 100%);
     border-image:
-    linear-gradient(to right, #f9a766 0%,#fe7773 100%);
+    linear-gradient(to right, #00ff00 0%,#fe7773 100%);
     border-image-slice: 1;
     margin: 10px 10px;
 }
 
   .main-nav {
-      background: rgba(19,20,36,.25);
+      background: #000000;
       cursor: pointer;
   }
 
