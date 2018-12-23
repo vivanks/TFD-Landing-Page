@@ -38,7 +38,7 @@ secondary background : #12141c;
     background: #000000 !important;
 }
 .bg-third {
-    background: #00ff00 !important;
+    background: #b0ff00 !important;
 }
 .bg-fouth {
     background: #0fa70f !important;
@@ -240,7 +240,7 @@ h4.min-title::after{
     border-radius: 50%;
     border: 3px solid transparent;
     border-top-color:#0fa70f;
-    border-bottom-color: #00ff00;
+    border-bottom-color: #b0ff00;
     -webkit-animation: spin 2s linear infinite;
     animation: spin 2s linear infinite;
 }
@@ -254,7 +254,7 @@ h4.min-title::after{
     border-radius: 50%;
     border: 3px solid transparent;
     border-top-color:#0fa70f;
-    border-bottom-color: #00ff00;
+    border-bottom-color: #b0ff00;
     -webkit-animation: spin 3s linear infinite;
     animation: spin 3s linear infinite;
 }
@@ -268,7 +268,7 @@ h4.min-title::after{
     border-radius: 50%;
     border: 3px solid transparent;
     border-top-color:#0fa70f;
-    border-bottom-color: #00ff00;
+    border-bottom-color: #b0ff00;
     -webkit-animation: spin 1.5s linear infinite;
     animation: spin 1.5s linear infinite;
 }
@@ -414,13 +414,13 @@ ul.head-navigation li{
     padding: 20px 40px;
     border: 1px solid transparent;
     -webkit-border-image: 
-    -webkit-linear-gradient(right, #0fa70f 0%,#00ff00 100%);
+    -webkit-linear-gradient(right, #0fa70f 0%,#b0ff00 100%);
     -moz-border-image:
-    -moz-linear-gradient(right, #0fa70f  0%,#00ff00 100%);  
+    -moz-linear-gradient(right, #0fa70f  0%,#b0ff00 100%);  
     -o-border-image:
-    -o-linear-gradient(right, #0fa70f 0%,#00ff00 100%);
+    -o-linear-gradient(right, #0fa70f 0%,#b0ff00 100%);
     border-image:
-    linear-gradient(to right, #0fa70f 0%,#00ff00 100%);
+    linear-gradient(to right, #0fa70f 0%,#b0ff00 100%);
     border-image-slice: 1;
     margin: 10px 10px;
 }
@@ -679,18 +679,18 @@ opacity: 0;
 .main-button {
     border: 1px solid transparent;
     -webkit-border-image: 
-      -webkit-linear-gradient(right, #0fa70f 0%,#00ff00 100%);
+      -webkit-linear-gradient(right, #0fa70f 0%,#b0ff00 100%);
     -moz-border-image:
-      -moz-linear-gradient(right, #0fa70f 0%,#00ff00 100%);  
+      -moz-linear-gradient(right, #0fa70f 0%,#b0ff00 100%);  
     -o-border-image:
-      -o-linear-gradient(right, #0fa70f 0%,#00ff00 100%);
+      -o-linear-gradient(right, #0fa70f 0%,#b0ff00 100%);
     border-image:
-      linear-gradient(to right, #0fa70f 0%,#00ff00 100%);
+      linear-gradient(to right, #0fa70f 0%,#b0ff00 100%);
     border-image-slice: 1;
     padding: 15px 60px;
     color: #fff;
     background-image: 
-    linear-gradient(to right, rgba(0,0,0,0) , rgba(0,0,0,0), #0fa70f, #00ff00);
+    linear-gradient(to right, rgba(0,0,0,0) , rgba(0,0,0,0), #0fa70f, #b0ff00);
    
     background-size: 300% 100%;
     -o-transition: all .4s ease-in-out;
@@ -718,18 +718,18 @@ opacity: 0;
 .top-button {
     border: 1px solid transparent;
     -webkit-border-image: 
-      -webkit-linear-gradient(right, #0fa70f 0%,#00ff00 100%);
+      -webkit-linear-gradient(right, #0fa70f 0%,#b0ff00 100%);
     -moz-border-image:
-      -moz-linear-gradient(right, #0fa70f  0%,#00ff00 100%);  
+      -moz-linear-gradient(right, #0fa70f  0%,#b0ff00 100%);  
     -o-border-image:
-      -o-linear-gradient(right, #0fa70f 0%,#00ff00 100%);
+      -o-linear-gradient(right, #0fa70f 0%,#b0ff00 100%);
     border-image:
-      linear-gradient(to right, #0fa70f 0%,#00ff00 100%);
+      linear-gradient(to right, #0fa70f 0%,#b0ff00 100%);
     border-image-slice: 1;
     padding: 15px 60px;
     color:#12141c;
     background-image: 
-    linear-gradient(to right, rgba(0,0,0,0) , rgba(0,0,0,0), #0fa70f, #00ff00);
+    linear-gradient(to right, rgba(0,0,0,0) , rgba(0,0,0,0), #0fa70f, #b0ff00);
     background-size: 300% 100%;
     -o-transition: all .4s ease-in-out;
     -webkit-transition: all .4s ease-in-out;
@@ -1063,7 +1063,7 @@ ul.list-services {
 .ww-content:hover{
     background: #12141c;
     padding: 20px 30px;
-    border-bottom: 1px solid #00ff00;
+    border-bottom: 1px solid #b0ff00;
 }
 .img-about img {
     width: 100% !important;
@@ -1105,9 +1105,9 @@ ul.list-services {
     -webkit-font-smoothing: antialiased;
 }
 .hov {
-    background-image: linear-gradient(to right, rgba(0,0,0,0) , rgba(0,0,0,0), #0fa70f, #00ff00);
+    background-image: linear-gradient(to right, rgba(0,0,0,0) , rgba(0,0,0,0), #0fa70f, #b0ff00);
     background-size: 300% 100%;
-    border: 1px solid #00ff00;
+    border: 1px solid #b0ff00;
     -webkit-transition: -webkit-transform ease-out 0.1s, background 0.2s;
     -moz-transition: -moz-transform ease-out 0.1s, background 0.2s;
     transition: transform ease-out 0.1s, background 0.2s;
@@ -1148,10 +1148,10 @@ ul.list-services {
     }
     40% {
         opacity: 1;
-        box-shadow:0 0 0px 1px #00ff00;
+        box-shadow:0 0 0px 1px #b0ff00;
     }
     100% {
-        box-shadow: 0 0 0px 1px #00ff00;
+        box-shadow: 0 0 0px 1px #b0ff00;
         -webkit-transform: scale(1.5);
         opacity: 0;
     }
@@ -1308,13 +1308,13 @@ ul.list-services {
 .team-detail {
     border: 1px solid transparent;
     -webkit-border-image: 
-      -webkit-linear-gradient(right, #0fa70f 0%,#00ff00 100%);
+      -webkit-linear-gradient(right, #0fa70f 0%,#b0ff00 100%);
     -moz-border-image:
-      -moz-linear-gradient(right, #0fa70f  0%,#00ff00 100%);  
+      -moz-linear-gradient(right, #0fa70f  0%,#b0ff00 100%);  
     -o-border-image:
-      -o-linear-gradient(right, #0fa70f 0%,#00ff00 100%);
+      -o-linear-gradient(right, #0fa70f 0%,#b0ff00 100%);
     border-image:
-      linear-gradient(to right, #0fa70f 0%,#00ff00 100%);
+      linear-gradient(to right, #0fa70f 0%,#b0ff00 100%);
     border-image-slice: 1;
     padding: 30px;
     display: block;
@@ -1337,7 +1337,7 @@ ul.list-services {
 span.dash {
     width: 30%;
     height: 1px;
-    background: #00ff00;
+    background: #b0ff00;
 }
 .team-detail a {
     margin: 0 8px;
