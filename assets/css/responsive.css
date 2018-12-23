@@ -1,0 +1,224 @@
+
+/* phone */
+@media (max-width: 575.98px) , (max-height: 500px) { 
+    .header {
+        background: #000;
+        position: relative;
+       z-index: 2 !important;
+       opacity: 1;
+       padding: 130px 0;
+    }
+
+    .mmt-20 {
+        margin-top: 20px;
+    }
+    .pb-50 {
+        padding-bottom: 30px !important;
+    }
+    .mt-up {
+        margin: 0 !important;
+    }
+    section{
+        padding: 50px 0;
+    }
+
+    h1 {
+        font-size: 30px;
+        letter-spacing: 1px;
+        font-weight: 700;
+        text-transform: capitalize;
+        margin-bottom: 20px;
+    }
+    h3{
+        font-size: 18px;
+        line-height: 30px;
+    }
+    h4{
+        font-size: 15px;
+        line-height: 30px;
+    }
+   p {
+       font-size: 14px !important;
+       line-height: 32px;
+   }
+   /* main-title */
+    h4.min-title {
+        padding-left: 0 !important;
+        text-align: center;
+        color: #f9a766;
+        font-size: 18px;
+        text-transform: uppercase;
+        font-weight: 700;
+        letter-spacing: 2px;
+        margin-bottom: 10px;
+      
+    }
+
+    h3.main-title{
+        padding-left: 0 !important;
+        text-align: center !important;
+        font-size: 18px;
+    }
+    
+    h4.min-title::after{
+        content: ' ';
+        position: absolute;
+        height: 1px;
+        width: 80%;
+        margin-top: 14px;
+        background: #f9a766;
+        right: 10%;
+    }
+    .about h3 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .mt-100{
+        margin-bottom: 40px !important;
+    }
+    .about h3.main-title {
+        text-align: center !important;
+    }
+    .portfolio h3 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    
+    .main-nav h4{
+        text-transform: uppercase;
+        font-size: 11px;
+    }
+    .main-button{
+        padding: 10px 20px;
+    }
+    ul.head-navigation li{
+        width: 300px;
+        display: inline-block;
+        padding: 5px 20px !important;
+        margin: 10px 10px;
+    }
+    .top-nav span {
+        color:#fff;
+        font-weight: 500;
+        font-size: 14px;
+    }
+    .left-nav {
+        display: none;
+    }
+    .social-media {
+        display: none;
+    }
+    .partner {
+        padding: 30px 0;
+    }
+    .mb-down {
+        margin-bottom: 10vh;
+    }
+    .footer {
+        text-align: center !important;
+        position: relative;
+    }
+    .border {
+        padding: 10px;
+        border: none !important;
+    }
+    .border-max {
+        padding: 10px;
+        border: none;
+    }
+    .video-play {
+        text-align: center;
+        margin: 40px 0;
+    }
+    .video-play a {
+        left: 0;;
+        position: relative;
+        transform: scale(.8);
+    }
+    #mouse-scroll{
+        display: none;
+    }
+    h5 {
+        font-size: 15px;
+        margin: 10px 0;
+        line-height: 24px;
+    }
+    .bg-port-head {
+        width: 20%;
+    }
+    .v-2 {
+        text-align: center !important;
+    }
+    .portfolio-focus {
+        padding: 0 30px;
+    }
+    .img-head{
+        width: 100%;
+        padding: 20px 0 0 0;
+    }
+    .about-detail {
+        padding-left: 20px;
+    }
+    .img-port::after {
+        max-width: 469px;
+        height: 180px; 
+    }
+    .portfolio-focus {
+        margin-top : 50px;
+    }
+}
+
+/* tablet */
+@media (max-width: 800px) {
+    h1 {
+        font-size: 30px;
+        letter-spacing: 1px;
+        font-weight: 700;
+        text-transform: capitalize;
+        margin-bottom: 20px;
+    }
+    .mt-100{
+        margin-top: 40px !important;
+    }
+    .portfolio-focus {
+        padding: 0 30px;
+    }
+    .img-head{
+        width: 100%;
+        padding: 20px 0 0 0;
+    }
+    .mmt-20 {
+        margin-top: 30px;
+    }
+    .about-detail {
+        padding-left: 20px;
+    }
+    .video-play {
+        text-align: center;
+        margin: 40px 0;
+    }
+    .video-play a {
+        left: 0;;
+        position: relative;
+        transform: scale(.8);
+    }
+    .main-nav h4{
+        text-transform: uppercase;
+        font-size: 11px;
+    }
+    .main-button{
+        padding: 10px 20px;
+    }
+    ul.head-navigation li{
+        width: 300px;
+        display: inline-block;
+        padding: 5px 20px !important;
+        margin: 10px 10px;
+    }
+    .left-nav {
+        display: none;
+    }
+    .social-media {
+        display: none;
+    }
+}
