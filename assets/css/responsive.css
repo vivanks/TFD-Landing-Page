@@ -45,7 +45,7 @@
     h4.min-title {
         padding-left: 0 !important;
         text-align: center;
-        color: #f9a766;
+        color: #00ff7f;
         font-size: 18px;
         text-transform: uppercase;
         font-weight: 700;
@@ -66,7 +66,7 @@
         height: 1px;
         width: 80%;
         margin-top: 14px;
-        background: #f9a766;
+        background: #00ff7f;
         right: 10%;
     }
     .about h3 {
