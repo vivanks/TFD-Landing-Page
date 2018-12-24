@@ -358,6 +358,11 @@ h4.min-title::after{
     background: #000000;
     text-align: center;
     padding: 10px 0;
+
+
+    }
+    .navbar-toggler{
+        margin-right:  200px;
     }
 }
 
