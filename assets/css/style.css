@@ -351,6 +351,7 @@ h4.min-title::after{
 .navbar .icon-bar {
     color: #00ff7f;
 }
+
 @media screen and (max-width: 991px) {
 .navbar .navbar-collapse {
     max-height: 500px;
@@ -362,8 +363,14 @@ h4.min-title::after{
 
     }
     .navbar-toggler{
-        margin-right:  200px;
+        margin-right:  0px;
+
     }
+    .navbar-collapse{
+        border-color: #00ff7f;
+    }
+    
+
 }
 
 /* ----------------------------------------------------------------
