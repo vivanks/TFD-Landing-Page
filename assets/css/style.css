@@ -353,7 +353,7 @@ h4.min-title::after{
 }
 @media screen and (max-width: 991px) {
 .navbar .navbar-collapse {
-    max-height: 500px;
+    max-height: 200px;
     overflow: auto;
     background: #000000;
     text-align: center;
