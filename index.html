@@ -28,6 +28,87 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- Responsive CSS -->
     <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <style type="text/css">
+        .winter-is-coming, .snow {
+  z-index: 100;
+  pointer-events: none;
+}
+
+.winter-is-coming {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  background: #333;
+}
+
+.snow {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  -webkit-animation: falling linear infinite both;
+          animation: falling linear infinite both;
+  -webkit-transform: translate3D(0, -100%, 0);
+          transform: translate3D(0, -100%, 0);
+}
+.snow--near {
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+  background-image: url("https://dl6rt3mwcjzxg.cloudfront.net/assets/snow/snow-large-075d267ecbc42e3564c8ed43516dd557.png");
+  background-size: contain;
+}
+.snow--near + .snow--alt {
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
+}
+.snow--mid {
+  -webkit-animation-duration: 20s;
+          animation-duration: 20s;
+  background-image: url("https://dl6rt3mwcjzxg.cloudfront.net/assets/snow/snow-medium-0b8a5e0732315b68e1f54185be7a1ad9.png");
+  background-size: contain;
+}
+.snow--mid + .snow--alt {
+  -webkit-animation-delay: 10s;
+          animation-delay: 10s;
+}
+.snow--far {
+  -webkit-animation-duration: 30s;
+          animation-duration: 30s;
+  background-image: url("https://dl6rt3mwcjzxg.cloudfront.net/assets/snow/snow-small-1ecd03b1fce08c24e064ff8c0a72c519.png");
+  background-size: contain;
+}
+.snow--far + .snow--alt {
+  -webkit-animation-delay: 15s;
+          animation-delay: 15s;
+}
+
+@-webkit-keyframes falling {
+  0% {
+    -webkit-transform: translate3D(-7.5%, -100%, 0);
+            transform: translate3D(-7.5%, -100%, 0);
+  }
+  100% {
+    -webkit-transform: translate3D(7.5%, 100%, 0);
+            transform: translate3D(7.5%, 100%, 0);
+  }
+}
+
+@keyframes falling {
+  0% {
+    -webkit-transform: translate3D(-7.5%, -100%, 0);
+            transform: translate3D(-7.5%, -100%, 0);
+  }
+  100% {
+    -webkit-transform: translate3D(7.5%, 100%, 0);
+            transform: translate3D(7.5%, 100%, 0);
+  }
+}
+    </style>
 </head>
     
   <body style="background-color: #000000">
@@ -85,7 +166,7 @@
     <!-- End Navbar = -->
 
     <!-- Start Header -->
-    <header class="valign header">
+    <header class="valign header winter-is-coming">
 
         <!-- backgroundslide -->
         <div class="pic-wrapper">
@@ -95,6 +176,14 @@
             <figure class="pic-4"></figure>
         </div>
 
+        <div class="snow snow--near"></div>
+  <div class="snow snow--near snow--alt"></div>
+  
+  <div class="snow snow--mid"></div>
+  <div class="snow snow--mid snow--alt"></div>
+  
+  <div class="snow snow--far"></div>
+  <div class="snow snow--far snow--alt"></div>
         <div class="container">
             <div class="text-center mt-30">                
                 <a class="logo" href="#">
@@ -172,8 +261,8 @@
         <div class="container" style="background-color: black;">
             <div class="row">
                 <div class="col-md-10 offset-md-1 text-center">
-                    <h3 data-aos="fade-up" data-aos-once="true">We <span>listen</span> , we <span> understand</span>, we <span>think</span> , we care and most importantly, we stay focused on creating an outstanding design that works hard for your business.</h3>
-                    <p class="mt-30" data-aos="fade-up" data-aos-delay="100"  data-aos-once="true"></p>>Sed sollicitudin ligula mi, ut accumsan est dapibus a. Cras pharetra dolor gravida, mattis tellus at, dapibus velit. Aenean dictum enim a augue aliquet posuere eget quis nibh efficitur uet varius.</p>
+                    <h3 data-aos="fade-up" data-aos-once="true">We <span>listen</span> , we <span> understand</span>, we <span>think</span> , we care and most importantly, we stay focused on creating an outstanding project that works.</h3>
+                    <p class="mt-30" data-aos="fade-up" data-aos-delay="100"  data-aos-once="true"></p>From specialization in IOT to a fullstack software developer, you name it we have it.</p>
                 </div>
             </div>            
             <div class="line"></div>
@@ -297,15 +386,15 @@
                                 </div>
                             </div>
                         <div class="col-md-12 col-lg-5">                         
-                            <h3 class="mt-20"><span>Agatha Projects</span> 
-                            in <span>UI/UX</span>  and <span>Branding</span> </h3>
-                            <p class="mt-20">Sed sollicitudin ligula mi, ut accumsan est dapibus a. Cras pharetra dolor gravida, mattis tellus at, dapibus velit.</p>
+                            <h3 class="mt-20"><span>HackOff</span> 
+                            in <span>hackathon</span> <span>v1.0</span> </h3>
+                            <p class="mt-20">A 24 hour  hackathon was conducted by IET on campus on the 14th and 15th of December.50+ teams participated in this groundbreaking hackathon . Each team was filled with unique motivation, desire and zeal to make the best project and create a dent in the universe.</p>
                             <ul class="mt-30">
-                                <li><span>Year </span> : &nbsp; 2017</li>
-                                <li><span>Client</span> : &nbsp; Agatha, USA</li>
-                                <li><span>Category </span> : &nbsp; App Development</li>
+                                <li><span>Year </span> : &nbsp; 2018</li>
+                                <li><span>Location</span> : &nbsp; VIT, Vellore</li>
+                                <li><span>Category </span> : &nbsp; Hackathon</li>
                             </ul>
-                            <a href="#0" class="main-button mt-20">
+                            <a href="http://www.ietvit.com/hackoff" target="_blank" class="main-button mt-20">
                                 <span>Explore more</span>
                             </a>
                         </div>
@@ -321,13 +410,14 @@
                             </div>
                         </div>
                         <div class="col-md-12 col-lg-5">                          
-                            <h3 class="mt-20"><span>Agatha Projects</span> 
-                            in <span>UI/UX</span>  and <span>Branding</span> </h3>
-                            <p class="mt-20">Sed sollicitudin ligula mi, ut accumsan est dapibus a. Cras pharetra dolor gravida, mattis tellus at, dapibus velit. Aenean dictum enim a augue aliquet posuere eget quis nibh efficitur uet varius.</p>
+                            <h3 class="mt-20"><span>Cyber Forensics</span> 
+                            and <span>IOT</span> </h3>
+                            <p class="mt-20">
+The Cyber Forensics and Internet of Things workshop held by IET On Campus, VIT, had a lot in store for the participants, the speakers who headed the workshop were overwhelmed by the immense participation by the students. Ranging from Computer Science Engineering to Agricultural Engineering and much more, everyone's curiosity level was astonishing. At the end, this accounted for the success of both the workshops!</p>
                             <ul class="mt-30">
-                                <li><span>Year </span> : &nbsp; 2017</li>
-                                <li><span>Client</span> : &nbsp; Agatha, USA</li>
-                                <li><span>Category </span> : &nbsp; Agatha, USA</li>
+                                <li><span>Year </span> : &nbsp; 2018</li>
+                                <li><span>Client</span> : &nbsp; VIT, Vellore</li>
+                                <li><span>Category </span> : &nbsp; Workshop</li>
                             </ul>
                             <a href="#0" class="main-button mt-20">
                                 <span>Explore more</span>
@@ -345,13 +435,14 @@
                             </div>
                         </div>
                         <div class="col-md-12 col-lg-5">                           
-                            <h3 class="mt-20"><span>Agatha Projects</span> 
-                            in <span>UI/UX</span>  and <span>Branding</span> </h3>
-                            <p class="mt-20">Sed sollicitudin ligula mi, ut accumsan est dapibus a. Cras pharetra dolor gravida, mattis tellus at, dapibus velit. Aenean dictum enim a augue aliquet posuere eget quis nibh efficitur uet varius.</p>
+                            <h3 class="mt-20"><span>Machine Learning</span> 
+                            </h3>
+                            <p class="mt-20">What's gonna happen to Tony Stark in Avengers 4? Can you predict your grades just on basis of CATs and DAs? We're not playing a game of guesses. We need absolute answers.
+Be here at our Machine Learning Workshop. Unravel the world of ML.</p>
                             <ul class="mt-30">
-                                <li><span>Year </span> : &nbsp; 2017</li>
-                                <li><span>Client</span> : &nbsp; Agatha, USA</li>
-                                <li><span>Category </span> : &nbsp; Agatha, USA</li>
+                                <li><span>Year </span> : &nbsp; 2018</li>
+                                <li><span>Client</span> : &nbsp; VIT, Vellore</li>
+                                <li><span>Category </span> : &nbsp; Workshop</li>
                             </ul>
                             <a href="#0" class="main-button mt-20">
                                 <span>Explore more</span>
@@ -388,8 +479,8 @@
                             <div class="team-detail">
                                 <div class="team-content text-center">
                                     <span class="dash"></span>
-                                    <h5>Anya Stark</h5>
-                                    <p>Developer</p>
+                                    <h5>Vivank Sharma</h5>
+                                    <p>Fullstack Developer</p>
                                     <ul class="social">
                                         <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
                                         <li><a href="#"><i class="fab fa-instagram"></i></a></li>
@@ -590,8 +681,23 @@
                     </div>
                 </div>
 
+                        
+
+
+
             </div>
+            <div class="port-nav text-right">
+                <a href="https://www.medium.com" target="_blank" class="customNextBtn">
+                    <span>
+                        <i class="arrow"></i>
+                            Read More
+                        <i class="arrow"></i>       
+                    </span>
+                </a>                             
+                </div>  
         </div>
+
+
     </section>
 
     <section class="banner">
@@ -600,7 +706,7 @@
                 <div class="col-md-12 text-center">
                     <h2 data-aos="fade-up" data-aos-delay="300" data-aos-once="true">Want to work with us?</h2>
                     <h4 data-aos="fade-up" data-aos-delay="100" data-aos-once="true">Tell us about your project</h4>
-                    <a href="#0" class="main-button mt-20" data-aos="fade-down" data-aos-delay="300" data-aos-once="true">
+                    <a href="#0" class="main-button mt-20" data-aos="fade-down" data-aos-delay="300" data-aos-once="true" data-scroll-nav="6">
                         <span>Get Started</span>
                     </a>
                 </div>
@@ -671,20 +777,20 @@
                 <div class="col-md-4 border">
                     <i class="fas fa-envelope"></i>
                     <h4>Say Hello</h4>                  
-                    <p>example@mail.com</p>
+                    <p>vivanksharma@ymail.com</p>
                 </div>
                 <div class="col-md-4 border">
                     <div class="address">
                         <i class="fas fa-map-marker"></i> 
                         <h4>Address</h4>
-                        <p>75 New York - Bourbon Street 10/555 Klaten - Central Java</p>
+                        <p>VIT Vellore - India</p>
                     </div>                        
                 </div>
                 <div class="col-md-4 border-max">
                     <div class="address">
                         <i class="fas fa-phone"></i>
                         <h4>Telephone</h4>
-                        <p>+20 ( 432 ) 3476 3479</p>
+                        <p>+91 9097754801</p>
                     </div>                        
                 </div>
                 <div class="col-md-12 text-center mt-40">
